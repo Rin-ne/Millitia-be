@@ -1,0 +1,27 @@
+{
+  "name": "mi-be",
+  "version": "1.0.0",
+  "description": "\"# Millitia\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rin-ne/Millitia-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rin-ne/Millitia-be/issues"
+  },
+  "homepage": "https://github.com/Rin-ne/Millitia-be#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsdom": "^15.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
