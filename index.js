@@ -5,9 +5,7 @@ const express = require( 'express' );
 const app = express();
 const cors = require("cors")
 
-if ( ! process.env.PORT ) {
-	process.env.PORT = 3000;
-}
+const PORT = process.env.PORT || 3000
 
 let getUrl = async (uri)=>{
 	const cookieJar = request.jar();
@@ -149,6 +147,6 @@ app.get( '/zs', async function( req, res ) {
 	}
 } );
 
-app.listen( process.env.PORT, function() {
+app.listen( PORT, function() {
 	console.log( `Success running on http://localhost:${process.env.PORT}` );
 } ); 
